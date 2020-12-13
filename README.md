@@ -19,4 +19,5 @@ Included support for an LED warning light which activates if either sensor is de
 Counter_V5:
 Fixed an issue where the serial monitor issue would only warn that a failure was detected for the LDR if both sensors failed. The warning light now also deactives if the sensors are fixed before the counter reaches 0, without the need for a manual reset.
 
-Counter_FINAL
+Counter_FINAL:
+In this version the circuit is working exactly how I had intended it to, and I finally added proper comments.
